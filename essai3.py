@@ -4,7 +4,7 @@ from fuzzywuzzy import process
 from io import BytesIO
 
 # Titre de l'application
-st.title("Matching entre Fichiers Excel avec Sélection de Colonnes pour le Mappage")
+st.title("Mapping entre Fichiers Excel")
 
 # Téléchargement des fichiers Excel
 uploaded_file1 = st.file_uploader("Téléchargez le premier fichier Excel", type=["xlsx"])
